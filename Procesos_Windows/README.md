@@ -99,19 +99,6 @@ git clone https://github.com/WriestTavo/Auditor_Public.git
 cd Auditor_Public
 ```
 
-**Opción C — Descargar solo `README.md` (PowerShell):**
-```powershell
-Invoke-WebRequest `
-  -Uri "https://raw.githubusercontent.com/WriestTavo/Auditor_Public/refs/heads/main/README.md" `
-  -OutFile "$env:USERPROFILE\Downloads\README.md"
-```
-
-**Opción D — Descargar solo `README.md` (curl):**
-```bash
-curl -L "https://raw.githubusercontent.com/WriestTavo/Auditor_Public/refs/heads/main/README.md" -o README.md
-```
-
----
 
 ## 13) Seguridad y límites
 - Es una herramienta de **diagnóstico inicial**; no reemplaza un análisis forense completo.
